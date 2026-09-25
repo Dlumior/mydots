@@ -44,8 +44,3 @@ y = 16
 import = [
   "~/.config/alacritty/one_dark.toml"
 ]
-
-[[keyboard.bindings]]
-key = "Return"
-mods = "Shift"
-chars = "\u001B\r"

@@ -13,3 +13,12 @@ HostName github.com
 User git
 IdentityFile ~/.ssh/id_ed25519_work
 IdentitiesOnly yes
+
+# Homeserver Forgejo
+
+Host git.slugcore.net
+HostName git.slugcore.net
+Port 2222
+User git
+IdentityFile ~/.ssh/id_ed25519_personal
+IdentitiesOnly yes
